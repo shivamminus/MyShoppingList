@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back_design"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Registration"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+
+        android:id="@+id/email_reg"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ed_design"
+        android:hint="    Email:"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ed_design"
+        android:hint="  Password:"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/password_reg"
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_gravity="center"
+        android:background="@drawable/ed_design"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_reg"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Already have an Account? Sign In Here"
+        android:gravity="center"
+        android:id="@+id/signin_txt"
+        android:layout_marginTop="25dp"
+        android:padding="8dp"/>
+
+
+
+
+</LinearLayout>
